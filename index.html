@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Prova-MeteoApp-With-Help-By-YT</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="ricerca">
+        <i class="fa-solid fa-location-dot"></i>
+        <input type="text" placeholder="Inserisci la posizione" />
+        <button class="fa-solid fa-magnifying-glass"></button>
+      </div>
+      <div class="nonTrovato">
+        <img src="imgs/searchError.png" />
+        <p>Ehi! Posto non esistente :/</p>
+      </div>
+      <div class="clima">
+        <img src="" />
+        <p class="temperatura"></p>
+        <p class="descrizione"></p>
+      </div>
+      <div class="dettagliTempo">
+        <div class="umidità">
+          <i class="fa-solid fa-water"></i>
+          <div class="testo">
+            <span></span>
+            <p>Umidità</p>
+          </div>
+        </div>
+        <div class="vento">
+          <i class="fa-solid fa-wind"></i>
+          <div class="testo">
+            <span></span>
+            <p>Velocità vento</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/7c8801c017.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
